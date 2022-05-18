@@ -1,0 +1,46 @@
+  HTML Prof Henrique
+
+  De onde Surgiu o HTML?
+  Foi criado por Tim Berners Lee entre 1989 e 1990 
+  criando o HTML que utiliza as tags para organização da informação 
+  HTTP protocolo de rede serve como transporte para paginas HTML  
+  Browser software para interpretar(renderiza) e apresentar  o conteudo para o usario
+
+  as 3 ferramentas compões a WWW = Word Wide Web
+
+  1945 existia a Memory Extension
+  1960 Hypertext são paginas que possui ligações com outras paginas por links
+  1974 Internet
+
+  Ao longo dos tempos surgiram o JavaScript, CSS e varias outras ferramentas 
+
+  HTML =  Hypertext Markup Language 
+  linguagem de marcação que utiliza diversas tags para organização
+
+  o documento HTML pode ser criado em editores de texto como bloco de notas e podemos usar o Visual Studio Code
+
+  existem 2 tipos de tags
+
+  As com abertura e fechamento e tags que não precisam de fechamento 
+  Entre as tags que possui abertura e fechamento vai o conteudo
+  dentro de uma tag sem fechamento vão os atributos 
+
+  existem tags de organização estrutura que criam containers
+
+  div
+  nav
+  section
+  e outras
+
+
+  doctype HTML declara o tipo de linguagem de marcação
+  title   é utilizada para adicionar o nome da página que aparece na aba do navegador 
+  head cabeçalho
+  body conteudo da página
+  p para paragrafos
+  h para titulos 
+
+
+  existem elemntos block (ex.tag P/div/ol)e elementos Inline(ex.IMG) para quebrar um elemento inline pode usar a tag br
+
+  Qualquer pagina web possui hierarquias (pais, irmãos, filhos , ancestrais e descendentes)
