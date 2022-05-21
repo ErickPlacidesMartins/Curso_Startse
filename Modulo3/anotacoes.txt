@@ -44,3 +44,35 @@
   existem elemntos block (ex.tag P/div/ol)e elementos Inline(ex.IMG) para quebrar um elemento inline pode usar a tag br
 
   Qualquer pagina web possui hierarquias (pais, irmãos, filhos , ancestrais e descendentes)
+O que é o DOM?
+DOM é uma interface para representar os documentos lidos no navgador, 
+ele cria uma arvore do documento permitindo criar aplicações que utilizam
+o conteudo sem carregar a pagina completamente.
+
+No DOM podemos manipular o arquivo com JavaScript usando por exemplo;
+ window.documente.getelementsById("id")
+
+ até mudar o testo em tempo real pelo DOM usando o;
+ id.innerHTML = "texto para modificar"
+
+ Para capturar classe de elementos usamos;
+ var 'nome var' =
+ window.document.getElementsByClassName("class")
+
+ Outra opção é capturar tambem pela tagname 
+ var 'nome var' = 
+ window.document.getElementsByTagName("tagname ex.h1, li")
+
+ Para adicionar eventos na pagina com Javascript podemos usar o 
+ addEventListener(""), function() {
+
+ }
+
+ Para navegar no DOM podemos usar comando como parentElement / firstElementChild
+
+ Antes do HTML 5 todas sessões eram divididas por 'div' mas foi notado que isso sobrecarregava o browser e criaram no 
+ html5 outras tags containner por ex. 
+ header/section/article/nav/aside/main/footer/detais/summary/code/address/dfn/abbr
+
+ meta tags são inseridas dentro do head e ajudar a otimizar os algaritimos do mecanismo
+ de busca
