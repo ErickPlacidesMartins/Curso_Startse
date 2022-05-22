@@ -76,3 +76,10 @@ No DOM podemos manipular o arquivo com JavaScript usando por exemplo;
 
  meta tags são inseridas dentro do head e ajudar a otimizar os algaritimos do mecanismo
  de busca
+
+ cada rede social possui suas metas tags especificas para otimizar a indexação
+ sempre verificar a documentação meta tag daquela rede na criação da page,.
+
+ Favicon são icones que são adicionados no head das pagina e fica visivel junto com nome da paginas
+ site top para gerar Favicon wwww.favicon.io 
+ 

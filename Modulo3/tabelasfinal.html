@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+
+        table { 
+            border:solid ;
+            width: 100%;
+            border-collapse: collapse;
+            border-color: blue;              
+        }
+
+        td { border:solid ;
+            border-color: blue;            
+        }
+        th { border:solid ;
+            border-color: blue;
+        }
+
+        tr { border:solid ;
+            border-color: blue;
+        }
+
+        thead {
+            background-color: rgb(160, 158, 158);
+            border-color: blue;
+        }
+
+        tbody {
+            border-color: blue;
+        }
+
+        tfoot { font-weight: bold;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 20px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgreen;
+        }
+
+        tbody tr:hover {
+            background-color: yellow;
+        }
+            
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>1.Tabela de Clientes frota</caption>
+        <thead>
+            <tr>
+                <th>Nome</td>
+                <th>Telefone</td>
+                <th>Endereço</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Para mais informações entre contato conosco</td>                
+            </tr>
+        </tfoot>
+        </table> 
+        <br><br> 
+        <div>
+            <table>
+                <caption>1.Tabela de Clientes frota</caption>
+            <thead>
+                <tr>
+                    <th>Nome</td>
+                    <th>Telefone</td>
+                    <th>Endereço</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João Silveira</td>
+                    <td>+5511965653232</td>
+                    <td>R: Sem Saida 000-bairro/Longe</td>
+                </tr>
+                <tr>
+                    <td>João Silveira</td>
+                    <td>+5511965653232</td>
+                    <td>abaixo usado o empty-cells</td>
+                </tr>
+                <tr>
+                    <td>João Silveira</td>
+                    <td>+5511965653232</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Para mais informações entre contato conosco</td>                
+                </tr>
+            </tfoot>
+            </table>      
+</body>
+</html>

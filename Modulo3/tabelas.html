@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        table{
+            border-color: rgb(10, 10, 10);
+            border-collapse: separate;
+            border-style:solid;
+            border-spacing: 5px 30PX;
+            width: 100rem;
+            font-size: 50px;
+            font-style: italic;   
+            empty-cells: hide;    
+        }
+
+        td, th, tr{
+            border-style: solid;
+            border-collapse: separate;
+            border-spacing: 5px;
+            
+        }
+        thead {
+        
+
+        }
+        tbody {
+
+        }
+        tfoot {
+            text-align: center;
+            font-weight: bold;
+            
+
+        }
+        caption {
+            caption-side: bottom;
+            color: brown;
+            text-align: left;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>1.Tabela de Clientes frota</caption>
+        <thead>
+            <tr>
+                <th>Nome</td>
+                <th>Telefone</td>
+                <th>Endereço</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>abaixo usado o empty-cells</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Para mais informações entre contato conosco</td>                
+            </tr>
+        </tfoot>
+        </table>
+    </div>
+
+    <h1>Tabela Complexa</h1>
+
+    <div>
+        <table>
+            <tr>
+                <th colspan="3">Nome/ Telefone/ Endereço</td>
+                
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+            <tr>
+                <td>João Silveira</td>
+                <td>+5511965653232</td>
+                <td>R: Sem Saida 000-bairro/Longe</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div>
+
+        <h2>"colspan" unifica colunas e "rowspan" unifica linhas </h2>
+        <br>
+        <table>
+            <tr>
+                <th colspan="3"> Endereço</td>
+                
+            </tr>
+            <tr>
+                <td>Rua</td>
+                <td>Numero</td>
+                <td>Bairro</td>
+            </tr>
+            <tr>
+                <td>João Silveiras</td>
+                <td>500</td>
+                <td>Tão Tão Distante</td>
+            </tr>
+            <tr>
+                <td>João Silveiras</td>
+                <td>500</td>
+                <td>Tão Tão Distante</td>
+            </tr>
+            <tr>
+                <td>João Silveiras</td>
+                <td>500</td>
+                <td>Tão Tão Distante</td>
+            </tr>
+            <tr>
+                <td>João Silveiras</td>
+                <td>500</td>
+                <td>Tão Tão Distante</td>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+</html>
