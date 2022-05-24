@@ -1,0 +1,33 @@
+Professor Adriano Rivolli
+
+Modulo 4 CSS
+
+CSS = Cascading Style Sheets
+Folhas de Estilo em Cascatas que define o layout e estilo de uma página
+
+Vantagens 
+Separação de conteudo e formato
+fácil e rápido de alterar
+reutilização
+responsividade
+
+ferramentas necessárias para Mod 04 
+
+Navegador web/Vscode e site Codepen
+
+o CSS é definido em:
+
+Seletor= quais elementos serão afetados
+Regra= defini como os elementos serão afetados
+
+propriedade= defini as caracteristicas
+valor= defini como a caracteristica será modificada ex:
+
+seletor (ex. h1/p/a/body) {
+    propriedade:valor1;
+}
+
+Para fazer uma alteração diretamente no documento HTML pode ser usar a tag "style"
+porém não é aconselhado e colocada no tag "head"
+
+os seletores por serem alocados por "class" mais utilizado  ou "id"= # deve ser unico 

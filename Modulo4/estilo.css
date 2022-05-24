@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(102, 255, 0);
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    border:  1px solid rgb(194, 22, 22);
+}
