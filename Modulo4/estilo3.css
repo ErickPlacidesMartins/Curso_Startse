@@ -1,0 +1,22 @@
+a, .menuitem {
+    border: 1px solid black;
+    
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+#menulist li{
+    margin: 10px;
+    color: red;
+
+}
+h1 {
+    color: blue;
+
+}
+
+a:hover{
+    background-color: yellow;
+}
+

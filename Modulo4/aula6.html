@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template para CSS</title>
+    <link rel="stylesheet" href="estilo3.css">
+    </head>
+    <body>
+            <div id="top">
+                <h1>Welcome to My Homepage</h1>
+                <p>Use the menu to select different Stylesheets</p>
+            </div>
+            <div class="wrapper">       
+            <ul id="menulist">
+                <li class="menuitem" onclick="reStyle(0)">Stylesheet 1
+                <li class="menuitem" onclick="reStyle(1)">Stylesheet 2
+                <li class="menuitem" onclick="reStyle(2)">Stylesheet 3
+                <li class="menuitem" onclick="reStyle(3)">Stylesheet 4
+                <li class="menuitem" onclick="noStyles()">No Stylesheet
+            </ul>
+            </div>
+                <div id="main">
+                <h1>Same Page Different Stylesheets</h1>
+                    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
+                        <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
+                        <a href="#" onclick="reStyle(1);return false">Stylesheet2</a>,
+                        <a href="#" onclick="reStyle(2);return false">Stylesheet3</a>,
+                        <a href="#" onclick="reStyle(3);return false">Stylesheet4</a>.
+                    </p>
+                <h2>No Styles</h2>
+                    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br><a href="#" onclick="noStyles();return false">No Stylesheet</a>.</p>
+                </div>
+                <h1>Meu formulário</h1>
+<p>Os campos anotados com <span class="obrigatorio">*</span> são obrigatórios</p>
+<form action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label for="name" >Nome:</label>
+        <input type="text" id="name" placeholder="Nome completo"/>
+    </div>
+    <div>
+        <label for="mail" class="obrigatorio">E-mail*:</label>
+        <input type="email" id="mail" placeholder="email@mail.com"/>
+    </div>
+    <div>
+      <label for="assunto">Assunto:</label>
+      <select name="assunto" id="assunto">
+        <option value="N" selected></option>
+        <option value="S">Sugestão</option>
+       <option value="R">Reclamação</option>
+       <option value="E">Elogio</option>
+       </select>
+  </div>
+    <div>
+        <label for="msg" class="obrigatorio">Mensagem*:</label>
+        <textarea id="msg"></textarea>
+      <p>Tamanho máximo de 100 caracteres</p>
+    </div>
+    <div class="button">
+        <button type="submit">Enviar sua mensagem</button>
+    </div>
+</form>
+        
+    </body>
+</html>

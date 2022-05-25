@@ -31,3 +31,18 @@ Para fazer uma alteração diretamente no documento HTML pode ser usar a tag "st
 porém não é aconselhado e colocada no tag "head"
 
 os seletores por serem alocados por "class" mais utilizado  ou "id"= # deve ser unico 
+
+Para combinar seletores basta fazer ex:  h1, #principal, .importante {
+    "separar os comando por virgulas" 
+}
+
+Para descendência basta utilizar espaço entre seletores ex: #principal .importante{
+
+}
+
+Para filho diretor utilizar > ex #principal>.importante{
+
+}
+
+tambem podemos atrinuir um comando da seguinte forma ex: a[href=""] 
+todos href dentro de a vão obedecer o comando.
