@@ -46,3 +46,23 @@ Para filho diretor utilizar > ex #principal>.importante{
 
 tambem podemos atrinuir um comando da seguinte forma ex: a[href=""] 
 todos href dentro de a vão obedecer o comando.
+
+Um otimo site para praticar seletores é CSS Diner
+no w3 o try slector css
+
+Hierarquia de especificidade 
+Estilo de linha = <h1 style="color:pink">
+IDs= #navbar
+Class, pseudo-class atributos
+ex:   .test, hover, [href]
+elementos e pseudo-elementos
+ex: h1
+
+para burlar uma regra usa !important;
+
+ex: color: blue !important
+
+No w3schools é possivel ver a listagem de configuração padrão do CSS
+na listagem "Default CSS values for HTML elements"
+"
+para zerar esses padrões é importante usar o CSS Reset ex "normalize CSS"

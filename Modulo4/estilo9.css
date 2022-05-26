@@ -1,0 +1,15 @@
+p.destaque::first-letter {
+    font-size: 30px;
+    background-color: aquamarine;
+    
+}
+
+div::first-line {
+
+    color: blue;
+}
+
+::selection {
+
+background-color: yellow;
+}
