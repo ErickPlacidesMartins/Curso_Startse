@@ -66,3 +66,20 @@ No w3schools é possivel ver a listagem de configuração padrão do CSS
 na listagem "Default CSS values for HTML elements"
 "
 para zerar esses padrões é importante usar o CSS Reset ex "normalize CSS"
+
+Box Model= Margem/Borda/Espaço interno / Conteúdo
+
+todo elemento HTML ocupa caixa na pagina
+
+padding = distancia entre conteudo e Borda
+Elementos borda = tamanho/estilo/cor
+tipos de box = 
+bloco gera uma nova linha mesmo que esccrito na mesma ou 
+inline não gera nova linha
+
+as medida podem ser colocadas em px/cm/ em
+
+existem medidas absolutas ( ex. cm) e relativas ( em / rem / %)
+
+usando px conforme a tela diminui ele se mantem 
+usando % o bloco diminui conforme a tela diminui
