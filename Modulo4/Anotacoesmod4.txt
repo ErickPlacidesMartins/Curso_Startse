@@ -79,7 +79,36 @@ inline não gera nova linha
 
 as medida podem ser colocadas em px/cm/ em
 
-existem medidas absolutas ( ex. cm) e relativas ( em / rem / %)
+existem medidas absolutas ( ex. cm, mm, in, px,pt) e relativas ( em / rem / %)
 
 usando px conforme a tela diminui ele se mantem 
 usando % o bloco diminui conforme a tela diminui
+
+somente o boxmodel aceita definição de sua altura e largura
+
+width =largura e height= altura ( auto=navegador defini, px,%, initial=defini o tamanho padrão,inherit= defini o mesmo tamanho dos pais)
+
+margem é definido pelo "margin" (auto = centraliza o elemento, px,em,%, inherit), margem pode ter valor negativo
+
+Topo= margin-Top
+base = margin-bottom
+esquerda= margin-left
+direita= margin-right
+
+Padding = espaçamento interno entre conteudo e margin 
+pading não aceita valor negativo
+aceitas os mesmo comandos de margin da direção
+
+as bordas são definidos por estilo, tamanho e cor
+"border"
+ex border-style = estilo da borda 
+border tamanho = border-width
+tb recebe direções esquerda , direita , topo, base
+
+border-color= cor da bordar
+
+ex: border: solid 10px red;
+
+cores podem ser definidas por : nome/ RGB/RBGA/ HEX/ HSL/HSLA
+
+background possui algumas propriedades ( cor/ imagem/ repetição/posição)
