@@ -1,0 +1,49 @@
+Focado 
+CSS layout/fomataçõs de textos/gradientes e sombras 
+HTML elelmentos de formularios / multimidias/ iframes
+
+declaração em CSS começa com @
+
+@ charset codificação dos caracteres fazer no inicio da folha de declarações 
+@import de regras de outro arquivo CSS e precisa vir após o charset
+@media queries serve para restringir o escopo das folhas de estilo para diferente dispositivos
+
+display: defini o comportamento dos elementos de linha html do bloco
+
+tipos: none/ inline/block/inline-block
+
+layout paginas
+
+header
+nav
+aside
+extras
+main
+footer
+
+www.gridbyexemple.com um otimo site com exemplos
+
+w3 school na seção css Templates 
+
+Posicionamento elementos 
+Top/bottom/left/right
+
+existem 5 tipos
+Estatico/ Relativo/ fixo/ absoluto/ sticky
+
+propriedade position
+
+para fixar um bloco em um local mas acompanha a rolagem;
+
+ p {position: fixed; right: o; bottom: 0;}
+
+ para fixar um bloco em um local para o restante da pagina fazer a rolagem usar o;
+
+ position{ sticky: top:0;}
+
+ tamanho das caixas;
+content-box= comportamento padrão;
+border-box= inclui o espaçamento interno;
+
+ex: box-sizing: border-box;
+

@@ -1,0 +1,30 @@
+p {
+    border: 1px solid red;
+    background-color: pink;
+    maring:10px;
+}
+
+p.ex1 { display:none;}
+p.ex2 {visibility: hidden;}
+p.ex3 {display: inline;}
+p.ex4 {display: block;}
+p.ex5 {display: inline-block;}
+
+nav li {
+    display: inline-block ;
+    font-size: 1.5em;
+    padding: 20px;
+    border: 4px solid red;
+}
+
+/* esse media abaixo faz pagina mais responsiva*/
+
+@media screen and (max-width: 600px) {
+    .nav li {
+        display: block;
+        padding: 5px ;
+    }
+    h1 {
+        display: none;
+    }
+}
