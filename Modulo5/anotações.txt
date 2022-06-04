@@ -45,5 +45,49 @@ para fixar um bloco em um local mas acompanha a rolagem;
 content-box= comportamento padrão;
 border-box= inclui o espaçamento interno;
 
-ex: box-sizing: border-box;
+ex: box-sizing: 
+Poderá ser usado o content-box =comportamento padrão ou
+border-box; que inclui o espaço interno e borda como parte do tamanho ( width e heigth)
 
+a propriedade float define como um elemento deve flutuar
+
+none=padrão
+left ou right para os lados
+para cancelar usar clear
+
+O Flexbox foi criado para tornar mais facil o layout sem usar float e posicionamentos
+
+Para criar o container utilizr a propriedade display
+.container {display:flex}
+
+Flex Container
+Flex Itens
+
+Direção ex. display: flex-direction: row ( column ou row) com possibilidades reverse
+
+Quebra 
+wrap para fazer quebra de linha ou coluna 
+nowrap não permitir a quebra
+
+
+
+Alinhamento = vertical ( aligh-items) 
+center/ flex-start/ flex-end/stretch/ base line
+
+Alinhamento = horizontal ( justify-content) 
+center/ flex-start/ flex-end/space-around/ space-between
+
+Grid
+Grid container
+Grid itens
+row
+column
+column gap
+
+ex. 
+display: grid; grid-Templates-columns: 80px 200px auto 10px;
+grid-Template-rows: 50% auto auto;
+
+para organizar a ordem de visualização dos elementos usar;
+
+o z-index  ex= p{z-index:-1}
