@@ -91,3 +91,51 @@ grid-Template-rows: 50% auto auto;
 para organizar a ordem de visualização dos elementos usar;
 
 o z-index  ex= p{z-index:-1}
+
+Fontes existem 5 familias de fontes genéricas 
+indicado Sans-serif
+
+usar no desenvolvimento sempre o "font-family"
+
+serif p/ impressão
+monospace ocupam o mesmo espaço de tamanho
+cursive similar a escrita de mão
+Fantasy  simbolos
+
+font-style: normal/ italic/ oblique
+font-weight: normal/ bold/ bolder/ lighte/ numeros de 100 a 900
+
+Font-variation
+font-stretch  condesado ou expandido
+
+para incluir fontes use o gogle fonts importando a url por ex.   @import url(nome da fonte);
+existe tb o @font-face para criar sua font
+
+Formatação textos
+alinhamento horizontal: text-align ( center/ left/ right/ justify)
+alinhamento vertical: vertical-align ( baseline/ text-top/ text-bottom/sub/super)
+
+
+text-trasform ( none/ uppercase/ lowercase/ capitalize = somente as 1 maisculas)
+
+
+Existem 2 tipos de listas Ordenadas OL ou não ordenadas url
+definidas pelo list-style-type
+
+pode se usar tb imagem ara os icones da listas
+list-style-image: url();
+
+para ter os icones fora ou dentro do box usar;
+
+list-style-position: outside ou inside;
+
+
+Para criação das tabelas utiliza-se 
+
+table 
+th cabeçalho tabela
+tr linha tabela
+td coluna tabela
+
+para tirar o epsçamento entre linhas da tabela usar o border-colapse:collapse;
+

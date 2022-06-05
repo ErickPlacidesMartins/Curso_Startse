@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body::-webkit-scrollbar {
+    width: 15px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: Gold;        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(17, 0, 255);    
+    border-radius: 20px;       
+    border: 4px solid rgb(238, 255, 0);  
+}
+
+body{
+    background:linear-gradient(to bottom right, green, yellow, blue);
+}
+
+h3 {
+    background-color: blue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color:white;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 60px auto 30px;
+    grid-template-rows: auto  30px auto;
+    
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.grid-item {
+    background-color: blueviolet;
+    border: 1px solid red;
+}
+
+.item9 {
+    grid-column: 2 / span 2;
+}
+
+#menu {
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    color: white;
+    margin: 0;   
+    z-index: 3;
+    width: 100%;
+    height: 4%;
+    text-align: center;
+    font-style: bold;    
+}
+
+#menu:hover{
+    color:gold;
+    font-weight: bold;
+}
+
+#caixa {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid red;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 3em;
+    letter-spacing: 1px;
+    /*word-spacing: 1em;*/
+}
+
+#listol {
+    list-style-type: lower-roman;
+    list-style-position: outside;
+
+}
+
+#listul  {
+
+}
+
+#table {
+    border-color: black;
+    color: blue;
+    margin-top: 5%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 8px 0px 35px 5px green;
+}
+
+#table th, tr, td{
+    border: 2px solid black;
+    text-align: center; 
+    background-color: white;
+
+}
+
+#table2 th, tr, td{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10% ;
+    background-color: white;
+}

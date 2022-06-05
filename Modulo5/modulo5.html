@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modulo5/modulo5.css">
+    <title>Grid</title>
+</head>
+
+<body>
+    <header id="menu">
+        menu superior
+    </header><br>
+    <h3>Aulas de grid, overflow, listas, tabelas, forms </h3>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+    <div>
+        <p id="caixa">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+            section 1.10.32.</p>
+    </div>
+    <section id="listul">
+        <ul>
+            <li>labcdefghij</li>
+            <li>abcdefghij</li>
+            <li>abcdefghij</li>
+            <li>abcdefghij</li>
+        </ul>
+    </section>
+
+    <section id="listol">
+        <ol>
+            <li>abcdefghij</li>
+            <li>abcdefghij</li>
+            <li>abcdefghij</li>
+            <li>abcdefghij</li>
+        </ol>
+    </section>
+
+    <section>
+        <table id="table">
+            <tr>
+                <th>titulo</th>
+                <th>titulo</th>
+                <th>titulo</th>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+        </table>
+        <br>
+
+        <table id="table2">
+            <tr>
+                <th>titulo</th>
+                <th>titulo</th>
+                <th>titulo</th>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+            <tr>
+                <td>t1</td>
+                <td>t2</td>
+                <td>t3</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section>
+        <form>
+            <div>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" name="nome" placeholder="Nome completo">
+            </div>
+
+            <div>
+                <label for="icor">Cor principal: </label>
+                <input type="color" id="icor" name="cor" value="#e66465">
+            </div>
+
+            <div>
+                <label for="start">Data de início:</label>
+                <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01" max="2022-12-31">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" size="30" required>
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="10" max="100" step="5">
+            </div>
+
+            <div>
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="password" minlength="8" required>
+            </div>
+
+            <div>
+                <label for="volume">Intervalo</label>
+                <input type="range" id="volume" name="volume" min="0" max="11" value="7">
+
+            </div>
+
+            <div>
+                <label for="site-search">Busca:</label>
+                <input type="search" id="site-search" name="q">
+            </div>
+
+            <div>
+                <label for="appt">Hora:</label>
+                <input type="time" id="appt" name="appt" min="09:00" max="23:00" required>
+            </div>
+
+            <div>
+                <label for="url">URL:</label>
+                <input type="url" name="url" id="url" placeholder="http://www.site.com" size="30" required>
+            </div>
+        </form>
+    </section>
+<br>
+<br>
+<form action="#" method="get">
+  
+    <div>
+    <label for="texto">Texto:</label>
+  
+  <textarea id="texto" name="texto" rows="10" cols="60">
+  Era uma vez...
+  </textarea>
+    </div>
+    
+    
+    
+    <div>
+      <label for="isabores">Sabores:</label>
+      <input list="sabores" id="isabores" name="sabores">
+  <datalist id="sabores">
+      <option value="Chocolate">
+      <option value="Coco">
+      <option value="Menta">
+      <option value="Morango">
+      <option value="Baunilha">
+  </datalist>
+  
+    </div>
+    
+    
+    <div>
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetar</button>
+      <button type="button">Botão genérico</button>
+    </div>
+    
+    <div>
+      <input type="submit" value="Enviar">
+      <input  type="reset" value="Resetar">
+      <input type="button" value="Botão genérico">
+    </div>
+    
+  </form>
+<br><br>
+<form>
+  
+    <fieldset>
+      <legend>Estilos musical</legend>
+  
+      <div>
+        <input type="checkbox" id="axe" name="axe" value="A">
+        <label for="axe">Axé</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="blues" name="blues" checked value="B">
+        <label for="blues">Blues</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="rock" name="rock" value="R">
+        <label for="rock">Rock</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="forro" name="forro" checked value="F">
+        <label for="forro">Rock</label>
+      </div>
+      <button type="reset">Limpar</button>
+  </fieldset>
+  
+     <fieldset>
+      <legend>Estilos musical</legend>
+  
+      <div>
+        <input type="radio" id="axe2" name="musica" value="A">
+        <label for="axe2">Axé</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="blues2" name="musica" value="B">
+        <label for="blues2">Blues</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="rock2" name="musica" value="R">
+        <label for="rock2">Rock</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="forro2" name="musica" checked value="F">
+        <label for="forro2">Rock</label>
+      </div>
+  </fieldset>
+  </form>
+  <br><br>
+  <form>
+  
+    <div>
+    <label for="opcoes">Selecione uma opção:</label>
+  <select name="opcao" id="opcoes">
+    <option value="1">Primeiro item</option>
+    <option value="2" selected>Segundo item</option>
+    <option value="3">Terceiro item</option>
+  </select>
+    </div>
+    
+    <div class="row">
+       <label for="opcoes">Selecione um animal:</label>
+      <select name="pets" id="pets" multiple size="9">
+      <optgroup label="4 Patas">
+        <option value="dog">Cachorro</option>
+        <option value="cat">Gato</option>
+        <option value="hamster" disabled>Hamster</option>
+      </optgroup>
+      <optgroup label="Pássaros">
+        <option value="parrot">Papagaio</option>
+        <option value="macaw">Arara</option>
+        <option value="albatross">Albatroz</option>
+      </optgroup>
+    </select>
+    </div>
+  </form>
+
+
+</body>
+
+</html>

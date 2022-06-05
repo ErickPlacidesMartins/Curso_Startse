@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modulo5/aulamod05.css">
+    <title>Aula Pratica módulo 05</title>
+</head>
+<body>
+
+    <h1>contato</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome" class="obrigatorio">Nome:* </label>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+            </div>
+            <div>
+                <label for="email" class="obrigatorio">E-mail:* </label>
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+            </div>
+        </fieldset>
+        <div>
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+                <option value="" selected></option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="elogios">Elogios</option>
+                <option value="suporte">Suporte</option>
+                <option value="sugestao">Sugestões</option>          
+            </select>
+        </div>
+        <div>
+            <label for="mensagem" class="obrigatorio">Mensagem:*</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite a Mensagem" required></textarea>
+        </div>
+        <div class="cadastro">
+            <input type="checkbox" id="cadastro" >
+            <label for="cadastro" class="cadastro"> Desejo receber E-mails Informativos</label>
+        </div>
+        <div class="cadastro">
+            <input type="submit" value="Enviar Mensagem">
+        </div>
+    
+</body>
+</html>
