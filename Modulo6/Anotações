@@ -1,0 +1,55 @@
+Prof Rafael
+
+Git/Github p/ versionamento ex.v1,v2,v3 não é uma boa opção
+usar o controle de versão ex git/ mercurial/ subversion
+
+O git utiliza-se de uma linha do tempo, o git te permite voltar em versões antigas
+sem comprometer o projeto
+
+Apos instalar usar o 
+git config --global username" name"
+git config --global user.email"email"
+git config --global init.defaultBranch main
+
+git --list te mostra as config já aplicadas
+
+Para subir o projeto pode usar o new terminar do VScode com control+j
+
+ escolher o git bash nas config do terminal
+
+
+ usar o git init 
+ Como gerar um novo estado?
+
+ O git trabalha com 4 estados de ciclos de vida = 
+ 
+ untracked= não possui estado anterior / unmodified / modified / stage = chega nele com git commit
+
+ git status para ver estados dos  arquivos
+
+ git add adicona o arquivos
+ git add * adiciona todos os arquivos 
+ git commit -m "comentario"
+
+ git log mostra as versões do aquivos = estados 
+
+ Para trabalhar em paralelo com outras equipe usar a linha de tempo alternativa com a branch
+ 
+ Para criar uma nova branch usar o comand
+ git branch nome_branch
+
+ após é precisa mudar para essa brach para trabalhar com o:
+ git checkout nome_branch
+
+ Apó finalizado o trabalho utilizar o comando para ubir as branchs:
+ git merge nome_branch após :wq para sair 
+
+ ele vai criar um commit merge
+
+ no final do dia deletar a branch que foi usada com:
+git branch -d nome da branch
+
+
+
+
+
