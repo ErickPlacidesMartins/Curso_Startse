@@ -49,6 +49,46 @@ Para subir o projeto pode usar o new terminar do VScode com control+j
  no final do dia deletar a branch que foi usada com:
 git branch -d nome da branch
 
+git reset e dif
+
+git status
+após git diff nome arquivo
+git checkout nome arquivo
+git status para verificar working clear
+mas usar isso antes do git add
+
+Após git add usar o
+git diff nome arquivo
+git reset nome arquivo
+git status
+git diff nome arquivo
+git checkout nome arquivo
+git status para verificar work clean
+
+Para fazer um git commit
+usar o git log para selecionar o id do commit
+q para sair
+git reset --soft id do commit  manter as alterações na stage
+git reset --mixed id do commit  vai para modifid
+git reset --hard id commit remove todas as alterações daquele estado
+
+Plataformas para versionar
+github/ bitbucked/gitlab
+
+github
+criar nome repositorio no github
+se ja existe a pasta na maquina usar o 
+git remot add origin url nome repositorio
+git remot -v consegue ver o caminho vinculado
+ggit push origin main -u
+
+para trazer o repsositorio pode usar o 
+git clone url
+após usar o
+git pull origin main para trazer alterações do github
+
+git push origin main para enviar o commit após add
+
 
 
 
