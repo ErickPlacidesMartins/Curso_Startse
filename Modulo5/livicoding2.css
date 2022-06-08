@@ -14,18 +14,23 @@ html, body {
 
 
 /* Seção Header*/
+
 header {
-    background-color: #0080ed;
+    background-color:white;
+     text-shadow: black 0.1em 0.1em 0.4em; 
 }
+
 
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 980px;
+    justify-content: space-around;
     height: 80px;
     margin: auto;
+    border: 3px solid #0080ed;
+    width: 100%;   
 }
+
 header nav ul{
     display: flex;
 
@@ -37,7 +42,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #0080ed;
     text-transform: uppercase;
     font-size: 18px;
     padding: 24px;
@@ -45,14 +50,21 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: rgba(255,255,255,0.15);
+    color: black;
 }
 
 header .container img {
-    height: 30px;
+    height: 73px;
 }
 
 /*Seção Main*/
+
+#title2 {          
+    text-align: center;
+    margin-top: 2%;
+}
+
+
 
 main {
     margin-bottom: 100px;
@@ -63,17 +75,17 @@ main .container-main {
     align-items: center;
     justify-content: space-between;
     max-width: 980px;
-    margin: 100px auto 0px auto;
+    margin: 50px auto 0px auto;
 }
 
-h2 {
+h2  {
     color: #000;
     font-size:45px;
     line-height: 50px;
     font-weight: bold;
 }
 
-h3 {
+section h3 {
     color: rgb(131,131,131);
     font-size:20px;
     line-height: 28px;
@@ -84,7 +96,7 @@ form {
     margin-top: 20px;
 }
 
-form input {
+form input  {
     width: 380px;
     padding-left: 15px;
     font-size: 18px;
@@ -95,60 +107,73 @@ form input {
 }
 
 form [type="submit"] {
-    background-color: #0080ed;
+    background-color:#0080ed;
     color: white;
+    background-color: #0080ed;
+    box-shadow: 10px 10px black;
 }
 
 form [type="submit"]:hover {
     cursor: pointer;
+    transform: translate( 2px, 2px);
+    box-shadow: 0px 0px #0080ed;
+
 }
 
 main .container-main img {
-    width: 600px;
+    width: 550px;
 }
 
 /* Seção Cards*/
 
 .cards {
-    width: 90%;
+    width: 55%;
     max-width: 980px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    display: flex;
+    justify-content: center;  
 }
 
 .text--medium {
-    font-size:16px;
+    font-size:15px;
     line-height: 16px;
     font-weight: 400px;
-    color: rgb(187,185,185);
+    color: #0080ed;   
+}
+
+.text--medium a {
+    text-decoration: none;
+    color: #0080ed; 
+    font-size: 19px;  
 }
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;      
 }
+
 
 .card:hover{
     transform: translateY(-7px);
 }
 
 .img {
-    width: 100%;
+    width: 40%;
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
 }
 
 .image img{
-    position: absolute;
+
+    width: 70%;
+    position:relative;
     border-radius: 10px;
     top: 50%;
-    left: 50%;
+    left:50% ;
     transform: translate(-50%, -50%);
 }
 
@@ -161,12 +186,25 @@ main .container-main img {
 }
 
 .desafio{
-    font-size: 100px;
+    font-size: 70px;
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     align-items: center;
     border:  1px solid black;
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 980px;
+    width: 45%;   
 }
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    background-color: #0080ed;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;  
+}
+
