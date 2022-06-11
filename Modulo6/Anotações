@@ -89,7 +89,7 @@ git pull origin main para trazer alterações do github
 
 git push origin main para enviar o commit após add
 
-
+git checkout - troca de branch
 
 
 
