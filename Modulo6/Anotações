@@ -89,17 +89,11 @@ git pull origin main para trazer alterações do github
 
 git push origin main para enviar o commit após add
 
-<<<<<<< HEAD
-Unidno  as Branchs
 
 gitmarge  adicona um novo commit na time line do progeto e não mexe no historico do projeto apenas avisa e coloca esse commit na line
 git marge branch name
 
 git rebase serve para mesclas as branchs alteradas e deixar a linha do tempo linear
 git rebase branch name destrutivo
-=======
-git checkout - troca de branch
->>>>>>> exemple/merge
 
-
-
+git checkout
