@@ -1,0 +1,20 @@
+Javascript é uma linguagem de programação interpretada
+
+linguagem interpretada é aquela que já é executada durante o desenvolvimento não precisando de ser compilada antes
+
+todo Dev web precisa saber 
+HTML = conteudo
+CSS = estilo
+Javascript = comportamento
+
+Java é diferente de Javascript sendo  diretamente nos navegadores
+atualmente é possivel rodar fora do navegador o JS em NodeJs
+
+segue os padrões ECMA script
+
+ECMA é organização
+Script a especificação 
+as vezes apresentado  a especificação em versões ES6
+
+O JS pode ser incluido  no Head ou Body, sugerido no Body para pagina carregar antes, oitimizando
+Adiconaros arquivos JS usando os <script src=""><script>
