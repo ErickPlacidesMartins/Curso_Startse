@@ -10,16 +10,16 @@ const nome = prompt('Qual é seu nome?');
 
 alert('Que bom ter você aqui ${nome}! \n Vamos começar?'); */
 
-/* Aula 4 
+//Aula 4 
 
 function bemVindo(){
     const nome = document.querySelector('#nomeUsuario').value;
     alert('Olá '   + (nome) +  ' Seja bem-vindo!');
     document.getElementById('formularioLogin').style.display = 'none';
-}*/
+} 
 
 function mudaCorFundo(){
   const menu = document.querySelector (`#coresFundo`) 
-  const cor = menu.options[menu.seletedIndex].value;
+  const cor = menu.options[menu.selectIndex].value;
   document.body.style.background = cor;
 }
