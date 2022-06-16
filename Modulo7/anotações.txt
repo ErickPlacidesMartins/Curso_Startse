@@ -18,3 +18,56 @@ as vezes apresentado  a especificação em versões ES6
 
 O JS pode ser incluido  no Head ou Body, sugerido no Body para pagina carregar antes, oitimizando
 Adiconaros arquivos JS usando os <script src=""><script>
+
+//valores que não haver alteração usar o const
+
+// let, function, if, else, while, for, não podem se nome de variaveis
+
+// Operadores aritimeticos (+ , - , **= , / , *)
+
+// tambem podemos usar atribuir mais operador 
+
+// ex:  -= ,   +=  ,  /= 
+
+//Operadores Relacionais e Igualdade = , >= , <= , == igualdade, === igualdade absoluta
+
+// o simbolo + tambem pode ser usado para unir strings
+
+Operador de Negação ( ! ) retorna True ou False
+
+ex: let conectado = true;
+
+console.log(conectado);exibe true
+console.log(!conectado);exibe false
+
+Operador de desigualdade !==  ou !=
+
+Operadores logicos binarios
+
+ex:
+let a = 2;
+let b = 3;
+let c = 5;
+let d = 7;
+
+console.log((a>b)  && (c>b)); resposta será true ( &&  = And - e)
+
+|| = Or - ou ( se uma for vdd ele retorna true)
+
+
+Operador Incremental
+ex: ++
+
+let x = 10;
+let a = ++x;
+
+console.log(a);
+
+resposta será 11 se for decrementar usar o -- que seria resultado 9
+
+tipos de dados/ tipo primitivos : number/ undefined=quando não há atribuição/ String/ booleanos = true ou false
+
+o que é criado fora do escopo da função pode ser acessada por qualquer parte do aqruivo "escopo global"
+oque é criado dentro do escopo da função não é possivel ser acessado fora "escopo local"
+
+

@@ -19,14 +19,21 @@
     </form>
 
     <p>Escolha uma cor de fundo:  </p>
-    <select  id="coresFundo" onchange="mudaCorFundo">
+    <select  id="coresFundo" onChange="mudaCorFundo()">
         <option value="white">Branco</option>
         <option value="blue">Azul</option>
         <option value="yellow">Amarelo</option>
         <option value="red">Vermelho</option>
     </select>
 
-    <script src="/Modulo7/arquivo.js"></script>
+    <section>
+        <h1>Coversor</h1>
+        <input type="text" id="valorKm" size="1" value="1"> KM
+        =<b><span id="resultado">1.609</span></b>Milha
+        <button type="button" id="botaoCalcular" onclick="calculaKmMilha()"> Calcular </button>
+    </section>
+
+    <script src="arquivo.js"></script>
 </body>
 
 </html>
