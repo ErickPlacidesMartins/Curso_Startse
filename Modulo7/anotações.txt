@@ -123,6 +123,7 @@ novo array = array.concat(array);
 
    } */
 
-   
+   DOM = Document Object Model
 
-
+POssivel a manipulação do HTML usando JavaScript no console 
+no elements é possivel identifcar quem são os pais e filhos da pagina

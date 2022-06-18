@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+            font-size:1.5em;
+        }
+
+        button.remover {
+            position: absolute;
+            right: 100px;
+          
+        }
+
+        ul li.naoRealizada {
+            list-style-type:'☐';
+            cursor: pointer;
+            text-indent:10px;
+           
+        }
+
+        ul li.realizada{
+            list-style-type: '☑';
+            cursor: pointer;
+            text-indent:10px;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+    <div>
+        <input type="text" id="caixaDeTexto" placeholder="Tarefa">
+        <button id="botaoAdicionar"  class="adicionar">&#10010;</button>
+
+        <select id="listaSuspensa" hidden>
+            <option>--Selecione uma Opção--</option>
+            <option>Marcar Todas as Tarefas</option>
+            <option>Desmarcar Todas as Tarefas</option>
+            <option>Limpar a Lista de Tarefas</option>
+            
+        </select>
+
+    </div>
+
+    <ul id="listaTarefas">
+
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>
