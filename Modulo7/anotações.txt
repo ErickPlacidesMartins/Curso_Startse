@@ -70,4 +70,59 @@ tipos de dados/ tipo primitivos : number/ undefined=quando não há atribuição
 o que é criado fora do escopo da função pode ser acessada por qualquer parte do aqruivo "escopo global"
 oque é criado dentro do escopo da função não é possivel ser acessado fora "escopo local"
 
+Array  / arranjo 
+tipo de dado de referência lista de itens ou objetos 
+
+//exemplo e array
+
+/* let produtos = ['camiseta','calça', 'blusa'];
+
+ ele vai apresenta 
+0 camisa
+1 calça
+2 blusa 
+
+push -- adicona item no final ex:
+
+produtos.push('regata")
+
+let produtos = ['camiseta','calça', 'blusa', 'regata'];
+
+unshift -- adiciona no começo
+
+pop -- remove o ultimo elemento e retorna elemento removido
+
+shift -- retira o primeiro e retorna o elemento removido
+
+splice -- remove 1 ou mais itens vocês precis informar o indice
+
+produtos.splice(indice, aqui você informar o indice);
+
+cocat -- concatena arrays 
+
+novo array = array.concat(array);
+
+*/
+
+/*Condicional Switch 
+   
+   let opcao = 2;
+
+   switch (opcao) {
+    case 1:
+      console.log(`Entrega em até x dias. `);
+      break;
+    case 2:
+      console.log(`Entrega em até x dias. `);
+      break;
+    case 3:
+      console.log(`Entrega em até x dias. `);
+      break;
+    default:
+      console.log(' Opção invalida ');
+
+   } */
+
+   
+
 

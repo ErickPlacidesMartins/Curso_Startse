@@ -10,7 +10,7 @@ const nome = prompt('Qual é seu nome?');
 
 alert('Que bom ter você aqui ${nome}! \n Vamos começar?'); */
 
-/*Aula 4
+/*Aula 4*/
 
 function bemVindo(){
     const nome = document.querySelector('#nomeUsuario').value;
@@ -22,7 +22,7 @@ function mudaCorFundo(){
   const menu = document.querySelector ('#coresFundo') 
   const cor = menu.options[menu.selectedIndex].value;
   document.body.style.background = cor;
-} */
+} 
 
  /*
 
@@ -77,9 +77,97 @@ function quedaLivre(tempo) {
 
 console.log(quedaLivre(30));*/
 
-/*function calculaKmMilha(){
-  let km = document.querySelector(`#valorkm`).value;
-  document.querySelector(`#resultado`).textContent = km * 1,609;
+// condicionais If = Se ou else = Se não
+
+let nota1 = 5;
+let nota2 = 8;
+
+function media( n1,n2){
+  return(n1,n2)/2;
 }
 
-console.log(km); */
+let resultado  = media(nota1, nota2);
+
+if(resultado >= 6) {
+  console.log(` Aprovado com média ${resultado}.`);
+} else if(resultado >= 4) {
+  console.log(` Recuperação com média ${resultado}.`);
+} else {
+  console.log(` Reprovado com média ${resultado}.`);
+} 
+
+// Operador Ternario
+
+let Nota1 = 5;
+let Nota2 = 8;
+
+function media( N1,N2){
+  return(N1,N2)/2;
+}
+
+let Resultado  = media(Nota1, Nota2);
+
+let situacão = Resultado >= 6 ? 'Aprovado' : 'Reprovado';
+
+console.log(situacão);
+
+//Ou podemos usar 
+
+/* let situacão = (resultado >= 6) ? `Aprovado com média ${resultado}` ; 
+                  (resultado >= 4) ? `Recuperação com média ${resultado}` ;
+                                     `Reprovado com a média ${resultado}` ;
+*/
+
+
+   /* Laços de Repeticão  Loops  FOR = para */
+
+   const listaNumeros = [23,45,12,89];
+
+   for(let i = 0; i < listaNumeros.length; i++) {
+    console.log(listaNumeros[i]);
+
+   } 
+
+   const operacoes = ['soma','Subtração','Multiplicação','Divisão'];
+
+   function montaTextoDaLista() {
+    let textoDaLista = '';
+    for( let i=0; i < operacoes.length; i++ ) {
+      textoDaLista += '<li>' + operacoes[i] + '</li>';
+    }
+    return textoDaLista;
+
+   }
+
+   document.querySelector('#listaOperacoes').innerHTML = montaTextoDaLista();
+
+
+   let jogadores = [
+    {
+      nome:'Beto',
+      posição: 'atacante'
+    },
+    {
+      nome:'Gil',
+      posição: 'Zagueiro'
+    },
+    {
+      nome:'Milton',
+      posição: 'Volante'
+    },
+   ];
+
+   for(let jogador of jogadores) {
+    console.log(jogador.nome);
+   }
+
+
+   /* While = Enquanto
+   const operacao = ['soma','Subtração','Multiplicação','Divisão'];
+
+   let i=0;
+   while(i < operacao.length) {
+    console.log(operacao[i]);
+    i++;
+   }
+ */
