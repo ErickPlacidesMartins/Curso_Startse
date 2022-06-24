@@ -1,0 +1,57 @@
+body, p{
+    padding: 0;
+    margin: 0;
+    font-size:  1.5rem;
+    font-style: italic;
+    color: dimgray;
+    text-align: center;
+}
+
+
+.grid-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 450px 150px;
+    grid-template-areas:  "header header"
+                          "section sidebar"
+                          "footer footer";  
+                          
+   border-collapse: collapse;                       
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+}
+
+section{
+    grid-area: section;
+    background-color: blueviolet;
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.caixa1, .caixa2, .caixa3 {
+    width: 25%;
+    background-color:rgb(251, 255, 0)
+}
+
+.caixa2{
+    width: 50%;
+    margin: 0 2px;
+}
+
+caixa3{
+    margin: 0;
+}

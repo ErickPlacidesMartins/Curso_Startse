@@ -1,0 +1,75 @@
+existem as tags genericas por exemplos as DIVs e semanticas ex Main , Section de olhar ela já faz sentido
+codigo limpo 
+O SEO consegue encontrar sua pagina com mais facilidade
+os leitores de tela podem usa-las como sinalização
+
+mais facil de achar o bloco de codigo para trabalhar
+
+existem 100 tags semanticas para o HTML5
+
+Header: representa um grupo de suporte introdutorio  e pode ser usado como cabeçalhos da pgina/ seção/ artigo
+
+NAV: representa uma seção de uma pagina ex seção com links de navagação
+
+details: usada pra o usuario interagir e conseguir informações adicionais que é usada com a tag Summary
+
+datalist:
+conjunto de elementos usados com a tag option
+
+progress; usado para visualizar o progresso de uma tarefa
+
+Tag Main: conteudo principal e so pode usar uma por pagina 
+não usar a seções comuns dentro dela 
+não pode ser filho de article/ aside/ footer/ header ou nav
+
+article : distribuido de forma independente ou reutilizavel  ex post em um forum pode ser
+usado com  address / time
+
+aside: representa uma seção de uma pagina um complemento muitas vezes usado como barra lateral
+
+footer: representa rodapé da pagina ou seção 
+
+section: uma seção genérica com um titulo
+
+FLEXBOX
+
+auxilia a posicionar os itens em um container
+
+Propriedades do elemento Pai
+
+container
+
+display= flex/ inline/ block/ inline-block
+flex-direction= row/ row-reverse/ columm/ columm-reverse ( horizontal ou vertical)
+flex-wrap=  configura para ficar na mesma linha ou não
+flex-flow= flex direction + flex-wrap
+justify-content= flex-start/ flex-end/ center/ space-between/ space -around/ space-evenly
+align-items flex-start(top)/flex-end(base)/ center( no centro do container)/ stretch(ocupam o container por igual)
+baseline nalinha centro independente do tamanho.
+align-content= flex-start/ flex-end/ center/ strecth/ space between ou arround
+Gap= espaçamento entre os itens (row-gap/column-gap ou gap 10px 10px)
+
+Propriedades elementos filhos 
+
+order
+flex-grow : 1 1 1;  tudo mesmo tamanho
+flex-grow:  1 2 1 ;  2 sera maior e dimnuirá os demais
+
+flex-shrink: inverso do grow diminui o items
+
+flex-basis:
+
+flex: 2 grow  1 shrink   20% basis
+
+align-self  sobrescreve o align item, você usa para um item com flex-start/flex-end/center
+
+GRID:
+
+.container{
+display: grid;
+}
+
+BOOTSTRAP
+
+Possui diversar funcionalidade prontas, porém mais indicado para pequenos projetos
+
