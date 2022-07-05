@@ -1,0 +1,90 @@
+POO Programção Orientada a Objetos
+
+Funcões em JS são chamadas programaçao estruturada
+
+a POO envolve programçaõ a objetos a partir de classes e metodos 
+
+A POO é mais reutilizavel que a PE
+Os objetos são definidos atraves de modelos e classes possuem caracteristica(atributos) e são feitas a partir de metodos
+Quando isolado os atributos dentro de um obejeto chamamos de encapsulamento
+
+
+A classe é uma classificação geral 
+objeto são os detalhes dessa classe
+
+ex classe estudante podemos ter varios estudantes 
+   objeto estudante  podemos adicionar suas particularidades ex nome, endereço = instanciação
+
+   A POO permiti mudar uma classe sem influenciar em outras classes
+
+   conceitos e pialares da POO:
+   O objeto é uma abstração do mundo real
+
+   ex pessoa (nome, cpf, endereço, telefone)
+      carro( marca,modelo,ano,potencia)
+
+      todo objeto posssui atributos caracteristicas 
+      metodos = funções associadas a esse ojeto
+
+      cada objeto é uma instancia da classe e criar obejto = instanciar
+
+      Pilares da POO
+
+  class publicas possuem acessos fora dela a Privat não
+
+  encapsulamento = ocultar dados que so pode ser recuperadoatraves de um metodos, permiti proteger as propriedades do objeto
+
+  Herança = existem classes que podem ser acessadas por outras classes são chamadas de superclasses as classes que tem 
+  herança de outras classes são chamadas de subclasses
+
+  Polimorfismo = Classse e subclasse com mesmo nome mas com codigos que produzem resultados diferentes 
+
+  Quando o javascript foi criado não tinha como regra a declaração de variaveis porém 
+  podemos aplicar o Strict mode para evitar esse tipo de problema
+  ex se usar "use strict"; no inicio do documento ele apontara o erro pedindo a declaração da variavel 
+
+  ex. Classe equipamento (codigo, peso, marca)
+      objeto 1 dados desse equipamento
+      objeto 2 dados desse equipamento
+
+  class NomeDaClasse{
+    escolpo da classe
+  }
+
+  o método construtor é resposanvel pela inicialização das propriedades do objeto
+
+  O obejto armazenado em memoria fica em uma referência(endereço)
+
+  o atributo estatico ( static) so pode ser utilizado na classe não sendo possiel ser acessado de fora
+
+  O metodo é declarado dentro da class se for declarado fora precisa do function
+
+  metodo estatico;
+  pertence somente a classe utilizada, o metodo estatico não pode ser acessado de fora da class, 
+  precisa ser utilizada a class(nome).metodo static (nome)
+
+  Super Classe:
+
+  Subclasse: derivado da superclasse
+
+  ex: Superclasse: fruta
+      subclasse: laranja, maça, uva
+  
+
+  encapsulamento, metodos e atributos Privados 
+  é isolar atributos de um objeto para que eles sejam acessados somente atraves 
+  do metodo, utilizando "#" ex:
+
+  class Produto {
+    #tipo;
+    #valor;
+  }
+
+  a # deve ser usado no atributo e no constructor
+
+  Getters and Setters;
+
+  get utilizado no inico de um metodo para obter um dado de um atributo
+
+  set utilizado no inicio de um metodo para alterar ou atribuir um dado de um atributos privado.
+  não é uma palavra reservada mas aconselhado a não usar como variavel      
